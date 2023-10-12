@@ -1,0 +1,756 @@
+.buttonn{
+    border: none !important;
+    background-color: grey !important;
+    color:  #f6f2f2 !important;
+    border-radius: 3% !important;
+    width: 50%;
+    height: 70% !important;
+}
+
+input{
+    border: none !important;
+}
+form{
+    border: 1px solid rgb(184, 172, 172);
+    padding: .3rem;
+}
+
+li{
+    margin-right: 5rem;
+}
+
+.nav-itemLi{
+    color: gray !important;
+   
+}
+
+.BikeMaxLi{
+    font-weight: 800 !important;
+    font-size: 20px !important;
+    margin-left: 6rem !important;
+    color: gray!important;
+}
+
+
+@media screen and (max-width: 990px) {
+    .BikeMaxLi{
+        display: none !important;
+    }
+    button:focus {
+        outline: 5px solid white !important;
+        background-color: white !important;
+        border: none !important;
+    }
+   
+}
+
+.BikeMxRespons{
+    color: black;
+    font-weight: 800 !important;
+    margin-top: 1rem;
+
+}
+
+.navbar-toggler{
+    border: #f6f2f2  !important;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important; 
+    border-color: transparent !important; 
+}
+.divimg {
+    background-color: rgb(157, 156, 156);
+    height: 50vh;
+    width: 85vh !important;
+    z-index: 2;
+   position: relative;
+   top: 7rem;
+   right: 8rem; 
+   /* bottom: 15rem !important; */
+   
+}
+
+.divimg2 {
+    position: relative;
+    background-color: rgb(179, 175, 175);
+    width: 98vh !important;
+    height: 41.5vh;
+    z-index: 1;
+    
+   
+}
+.headerDivH1 h1{
+    margin-top: 4rem !important;
+    font-size: 85px !important;
+    color: gray;
+    width: 83%;
+}
+.pWidht{
+    width: 60%;
+}
+
+
+.btnRadius{
+    border-radius: none !important;
+    padding: 6px 30px 6px 30px !important;
+    margin-top: 1rem;
+}
+
+:root{
+    --bs-border-radius: 0 !important;
+ 
+}
+.ulLi{
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10rem !important;
+    margin-top: 9rem;
+    
+    
+}
+
+header{
+    background-color:#f6f2f2 !important;
+}
+
+@media (max-width: 1200px) {
+    .headerDiv {
+      order: 1 !important;
+    }
+    .headerDivH1 {
+      order: 2 !important;
+      
+    }
+    .headerDivH1 h1{
+        font-size: 52px !important;
+    }
+    .headerDivH1 p{
+        width: 83%;
+        margin-top: 1rem;
+    }
+    
+  }
+
+
+.divimg p{
+    font-weight: 600;
+    color: white;
+    margin-right: 2rem !important;
+    /* margin-top: 1rem !important; */
+}
+
+.divimg2 {
+    position: relative;
+  }
+  
+  .list-container {
+    position: absolute;
+    bottom: 0;
+  }
+  .list-container ul li{
+    list-style: none;
+    display: inline-flex;
+  }
+
+  .divimg2 svg{
+    margin-top: .3rem;
+    padding: .1rem;
+    color: white;
+   
+  }
+
+  .divimg2 li{
+    color: white;
+  }
+
+  .imgWidht{
+    width: 100% !important;
+  }
+  section{
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+  section h1{
+    color: gray;
+    font-size: 65px;
+  }
+  
+
+  @media screen and (max-width: 1200px) {
+    .ulLi {
+        /* display: none !important; */
+        position: absolute;
+        bottom: -12.8rem !important;
+        margin-top: 1rem !important;
+        margin:  0cqh;
+        left: 0;
+        right: 0;
+        padding: .9rem !important;
+        background-color: #f6f2f2;
+        height: 1;
+
+
+    }
+   
+    body{
+        height: 950px !important;
+        background-color: #f6f2f2 !important;
+    }
+    
+    .divimg{
+        width: 90% !important;
+        height: 150px;
+        margin-right: 1rem !important;
+        left: 0rem;
+    }
+    .divimg2{
+        width: 103% !important;
+        height: 200px;
+
+    }
+    .navBarContainer{
+        background-color: white !important;
+    }
+    .divimg p{
+        text-align: left;
+        position: absolute;
+        top: -4rem !important;
+        color: gray;
+        
+    }
+    .ResponsTasarimm{
+        margin-top: 2rem !important;
+    }
+
+    .card{
+        /* position: absolute; */
+        bottom: 0rem !important;
+        border: none !important;
+        /* background-color: white !important; */
+        text-align: center;
+        /* flex-direction: column-reverse(1fr,3); */
+    }
+    .card {
+        width: 22rem !important;
+    }
+    .discover{
+        margin-top: 3rem !important;
+        background-color: white;
+        
+    }
+  }
+  .cardDiv .card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white !important;
+  }
+
+ 
+  .cardDiv h1{
+    color: gray;
+    font-weight: 700 !important;
+  }
+  .cardDiv svg{
+    width: 50px;
+    height: 45px;
+    color: gray;
+  }
+  .cardDiv h5{
+    color: gray;
+  }
+  .discover {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: none !important;
+  }
+  
+  .discover h1 {
+    margin-top: 3rem !important;
+    text-align: center;
+    max-width: 350px;
+    width: 100% !important;
+    height: 100px !important;
+    color: gray;
+    font-weight: 700;
+  }
+
+  .Card{
+    border: none !important;
+    background-color: white !important;
+    
+  }
+  
+  
+.card {
+    border: 2px solid white !important;
+    /* align-items: center; */
+    padding: 1rem;
+    background-color: #f6f2f2 !important;
+    margin-top: 2rem ;
+}
+
+/* Mobil Görünüm */
+@media screen and (max-width: 767px) {
+    .col-12.col-md-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .col-12.col-md-6 img {
+        width: 90%;
+        height: 250px;
+        margin-top: 2rem;
+    }
+    section{
+        background-color: white;
+        padding: 0rem;
+    margin-top: 0rem;
+    }
+    section h1{
+        font-size: 47px;
+        margin-top: 2rem;
+    }
+
+    section p{
+        font-size:smaller ;
+        margin-top: 1rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .cardDiv .col-4 {
+      display: flex;
+      width: 100%;
+      
+    }
+    .cardDiv{
+        background-color: white;
+    }
+  }
+  
+
+  /********************* etiket Css *********************/
+
+  .etiketDiv svg{
+     width: 13%;
+    height: 30px; 
+  }
+  
+  .etiketDiv{
+    background-color:   #f6f2f2;
+    width: 35%;
+    padding: .5rem;
+    color: gray;
+    font-weight: 500;
+    
+  }
+
+  .etiketDiv2{
+    font-size: 55px;
+    font-weight: 700;
+    color: gray;
+  }
+
+  .Maxunion{
+    background-color: #f5f2f2;
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+    padding: .5rem;
+  }
+  .etiket{
+
+background-color: white;
+margin-top: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .etiketDiv{
+        width: 90%;
+        justify-content: start;
+        display: flex;
+        font-size: 30px;
+        margin-left: 0rem;
+        
+    }
+    .etiket{
+        background-color: white;
+        margin-top: 0;
+    }
+    .etiketDiv svg{
+        margin-top: .5rem;
+    }
+    .etiketDiv2{
+        font-size: 40px;
+        margin-top: 1rem;
+    }
+    .Maxunion p{
+        justify-content: start;
+        display: flex;
+        width: 100%;
+        font-size: small;
+    }
+
+    .Maxunion{
+        width: 330px !important;
+        height: 200px;
+        /* flex: 1 !important; */
+        margin-left: 1.4rem;
+        padding: 0;
+        margin-top: 2rem !important;
+    }
+  }
+  
+ 
+  
+  
+  /********** yorum css **********/
+
+  .yorum h1{
+    color: gray;
+    font-weight: 700;
+    margin-top: 5rem;
+  }
+  .yorumDiv{
+    /* margin-right: 2rem; */
+  }
+  .yorumDivLeft{
+    width: 57% !important;
+  }
+  .yorumDiv h1{
+    color: white;
+    font-size: 70px;
+    padding: .5rem;
+    margin: 0;
+    /* margin-left: 1rem; */
+  }
+  .yorumDiv p{
+    /* margin-left: 1rem; */
+    width: 100%;
+  }
+  .yorum img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* object-fit: cover;  */
+  }
+
+
+.yorum .card{
+border-color:  #6c757d !important;
+color: white;
+}
+
+.yorum{
+    color: white;
+    
+}
+.yorum .card p{
+    color: white !important
+}
+
+.yorumDivP{
+    margin-left: 1rem;
+    width: 90% !important;
+}
+
+.yorumRight{
+    color: black !important;
+    border: 1px solid black;
+    margin-left: auto;
+}
+.yorumRight h1{color: black;
+}
+.yorumRightContent{
+    color: black !important;
+    background-color: white !important;
+    border: none !important;
+}
+.yorum h1{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .yorumDivLeft img{
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .yorumDivLeft{
+    width: 355px !important;
+    margin-left: .6rem;
+  }
+  .yorum{
+    background-color: white;
+  }
+  .Baslik {
+    font-size: 40px !important;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 3rem !important;
+  }
+  .Baslik br{
+    display: none;
+  }
+
+  .yorumRight  {
+    width: 94% !important;
+    background-color: white !important;
+    margin-top: 1rem !important;
+    /* padding-left: 1rem; */
+    margin-left: .7rem; 
+  }
+  .yorumRight .card{
+    width: 90% !important;
+  }
+  .denden{
+    margin-right: auto !important;
+  }
+  .yorumDiv .yorumDivPp  {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .yorumDivPp {
+    text-align: left; 
+    width: 95% !important;
+  }
+  .clasnone{
+    display: none;
+  }
+  .bottomLeft{
+    margin-top: 2.2rem !important;
+  }
+  
+}
+
+
+
+/********** email css **********/
+
+.emailDiv{
+  background-color: #f5f2f2;
+  color: gray;
+  
+}
+.emailDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.emailContent {
+  text-align: right;
+  margin-top: 5rem;
+  padding: 2rem;
+  font-size: 40px;
+  font-weight: 700;
+}
+.emailFont{
+  color: gray;
+}
+
+.emailFontH1{
+  font-size: 60px;
+}
+.email form{
+  background-color: #f5f2f2;
+  padding: .5rem;
+  border: none !important;
+  margin-top: 2rem;
+}
+.email input {
+  background-color: #f5f2f2;
+  /* margin-top: 1rem; */
+}
+.email button {
+  padding: .7rem;
+  border-radius: .4rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .emailFontH1{
+    font-size: 42px;
+  }
+  .emailFontH1 br{
+    display: none;
+  }
+  
+
+ }
+@media screen and (max-width: 767px) {
+  .email form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email input {
+    order: 1; /* Input'u en alta taşır */
+    
+
+  }
+  .email form{
+    background-color: white;
+  }
+  .email input{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 300px;
+    padding: .8rem;
+  }
+
+  .email button {
+    order: 2; /* Butonu input'un altına taşır */
+    margin-top: 1rem;
+    border-radius: 1% !important;
+
+    
+  }
+  .emailContent{
+    font-size: 32px;
+    margin-bottom: 3rem;
+  }
+}
+
+
+/********** contact css **********/
+
+.contact{
+  background-color: #f5f2f2;
+  margin-top: 3rem;
+  padding: 3rem;
+  
+}
+
+.contact svg{
+  width: 50px;
+  height: 40px;
+  color: #6c757d;
+}
+.contact .card{
+  background-color: #f5f2f2 !important;
+  border: none !important;
+  color: black;
+  align-items: center;
+  text-align: center;
+}
+.contact .card p{
+  color: black !important;
+  margin-left: 1rem;
+}
+.contact .card h6{
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .contact .card p{
+    color: black !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact .card .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .card svg {
+    order: -1;
+    margin-left: .8rem !important;
+  }
+
+  .contact .card h6 {
+    order: 1; 
+  }
+
+  .contact .card p {
+    order: 2;
+  }
+  .contact{
+    padding: 0;
+  }
+}
+
+
+/********** footer css **********/
+
+footer{
+  background-color: #4d4f51;
+}
+
+footer h1{
+  color: white !important;
+  margin-top: 3rem !important;
+  
+}
+footer h2{
+  font-size: 48px;
+}
+footer li{
+  list-style: none;
+  font-size: 13px;
+  margin-top: 1.6rem;
+  /* text-align: center;
+  align-items: center; */
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: black;
+}
+footer ul {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  footer li{
+    margin-top: .8rem;
+  }
+  .footerLeft{
+    margin-left: auto;
+  }
+}
+
+/* 1200 pikselden küçük ekranlarda kartları iki iki göster */
+@media screen and (max-width: 1200px) {
+  .Card .col-md-3 {
+    flex: 0 0 calc(50% - 10px); /* Kartları iki sütun olarak ayarlar */
+    text-align: center !important;
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .section{
+    background-color: white !important;
+  }
+  .ulLi{
+    display: none;
+  }
+  
+}
+
+
+
+
